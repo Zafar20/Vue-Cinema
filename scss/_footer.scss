@@ -1,0 +1,22 @@
+.footer {
+    background: linear-gradient(90deg, #FF8C30 0%, #9F4700 100%);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+    padding: 25px 0;
+
+    & img:first-of-type {
+        margin-right: 50px;
+    }
+
+    &__row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__text {
+        color: $white;
+        font-size: 18px;
+        font-family: $CB;
+        line-height: 20px;
+    }
+}

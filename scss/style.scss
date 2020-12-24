@@ -1,0 +1,52 @@
+@import '_fonts';
+
+$CB: 'Comfortaa Bold';
+$CR: 'Comfortaa Regular';
+$MB: 'Montserrat Bold';
+$MR: 'Montserrat Regular';
+$RR: 'Roboto Regular';
+$bg: #2C2C2D;
+$orange: #F18128;
+$grey: #C8C8C8;
+$black: #000000;
+$white: #ffffff;
+$btnbg: #070F19;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: $MR;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    background: $black;
+}
+
+
+::-webkit-scrollbar{
+    width: 10px;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(107, 19, 107);
+    border-radius: 30px;
+}
+
+@import "_header";
+
+@import "_main";
+
+@import "_footer";
+
+@import "_media";
