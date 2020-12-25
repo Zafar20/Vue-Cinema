@@ -599,10 +599,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 100%;
   position: relative;
   background: linear-gradient(95.68deg, rgba(35, 35, 35, 0.8) 0%, rgba(11, 11, 11, 0.6) 100%);
   border-radius: 6px;
-  height: 100%;
 }
 
 .series__title {
@@ -810,7 +810,7 @@ body {
     top: 0;
     left: -100%;
     min-height: 100vh;
-    width: 300px;
+    width: 230px;
     -webkit-transition: 300ms;
     transition: 300ms;
   }
@@ -823,10 +823,9 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    padding-left: 50px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     overflow: hidden;
   }
   .header__nav-burger {

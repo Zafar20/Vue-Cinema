@@ -95,14 +95,13 @@
             top: 0;
             left: -100%;
             min-height: 100vh;
-            width: 300px;
+            width: 230px;
             transition: 300ms;
             &.active {
                 left: 0;
                 display: flex;
                 flex-direction: column;
-                align-items: flex-start;
-                padding-left: 50px;
+                align-items: center;
                 overflow: hidden;
             }
         }

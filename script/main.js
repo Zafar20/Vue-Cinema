@@ -5,5 +5,6 @@ let burger = document.querySelector('.header__nav-burger'),
     
 burger.addEventListener('click', () => {
     list.classList.toggle('active');
+    
 })
 
